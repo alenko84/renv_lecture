@@ -1,6 +1,6 @@
 # create a project structure
 project_setup <- function(){
-  folders <- c('data', 'results', 'figures', 'scripts')
+  folders <- c('data', 'results', 'figures')
   mainDir <- getwd()
   sapply(folders, function(subDir){
     dir.create(file.path(mainDir, subDir))

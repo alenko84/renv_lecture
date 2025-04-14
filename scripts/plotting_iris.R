@@ -1,6 +1,10 @@
+# install theme park
+renv::install('MatthewBJane/ThemePark', dependencies = T)
+
 # install pckgs and load
 library(dplyr)
 library(ggplot2)
+library(ThemePark)
 
 # lets plot some iris data
 data <- iris
